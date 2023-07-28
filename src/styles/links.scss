@@ -1,0 +1,16 @@
+@import './colors.scss';
+@import './fonts.scss';
+
+.pp-link-menu-light {
+    color: $gray-light-600;
+    @extend .pp-body-b-b;
+    transition: 500ms;
+    text-decoration: none;
+
+    &:hover {
+        color: $gray-light-900;
+    }
+    &:active {
+        color: $gray-light-600;
+    }
+}

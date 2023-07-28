@@ -1,0 +1,40 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+header {
+    padding: 16px;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .buttons-wrapper {
+            display: flex;
+            align-items: center;
+
+            .links-wrapper {
+                margin-right: 48px;
+
+                a:not(:last-child) {
+                    margin-right: 24px;
+                }
+            }
+
+            .social-wrapper {
+                display: flex;
+                align-items: center;
+
+                a {
+                    margin-right: 24px;
+                }
+            }
+        }
+    }
+}
+
+.pp-theme-toggle {
+    
+}

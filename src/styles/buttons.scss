@@ -1,0 +1,22 @@
+@import './colors.scss';
+@import './fonts.scss';
+
+.pp-button-light {
+    @extend .pp-body-b-b;
+    color: $gray-light-50;
+    background-color: $gray-light-900;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: 500ms;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $gray-light-700;
+    }
+    &:active {
+        background-color: $gray-light-800;
+        transition: none;
+    }
+}
