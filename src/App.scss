@@ -1,3 +1,7 @@
+@import 'styles/fonts.scss';
+@import 'styles/colors.scss';
+
+
 * {
     font-family: 'Inter', sans-serif;
 }
@@ -6,7 +10,7 @@
 header {
     padding: 16px;
 
-    .wrapper {
+    .header-wrapper {
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -35,6 +39,72 @@ header {
     }
 }
 
-.pp-theme-toggle {
-    
+
+.body-wrapper {
+    padding: 96px 0;
+    display: flex;
+    justify-content: center;
+
+    div:not(:last-child) {
+        margin-right: 128px;
+    }
+
+    .text-wrapper {
+        width: 768px;
+
+        span {
+            color: $gray-light-900;
+        }
+
+        p {
+            @extend .pp-body-b;
+            color: $gray-light-600;
+        }
+
+        .card-wrapper {
+            margin-top: 48px;
+
+            .location {
+                display: flex;
+                align-items: center;
+
+
+                img {
+                    margin-right: 8px;
+                }
+
+                span {
+                    color: $gray-light-600;
+                }
+            }
+
+            .available {
+                margin-top: 8px;
+                display: flex;
+
+                span {
+                    color: $gray-light-600;
+                }
+
+                .dot-wrapper {
+                    padding: 8px;
+                    margin: 0;
+                    .green-dot {
+                        border-radius: 100%;
+                        width: 8px;
+                        height: 8px;
+                        margin-right: 8px;
+                        background-color: $emerald-500;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .pp-my-photo {
+        width: 280px;
+        height: 320px;
+    }
 }
