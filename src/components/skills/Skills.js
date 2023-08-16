@@ -9,12 +9,15 @@ function Skills() {
                 <div>
                     <span className='pp-body-c-a'>Habilidades</span>
                 </div>
+                <span className="pp-subtitle-a" id="subtitle">
+                    Habilidades e experiências que possuo e que estou desenvolvendo:
+                </span>
             </div>
             <div className="info-wrapper">
                 {skillsList.map((skill) => (
                     <div className="card-item">
-                    <img alt='habilidade' className="skill-icon" src={skill.img_url} />
-                    <span>{skill.tool_name}</span>
+                        <img alt='habilidade' className="skill-icon" src={skill.img_url} />
+                        <span>{skill.tool_name}</span>
                     </div>
                 ))}
 

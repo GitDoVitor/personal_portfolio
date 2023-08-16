@@ -12,6 +12,10 @@ export const skillsList = [
         "tool_name": "Java"
     },
     {
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+        "tool_name": "C#"
+    },
+    {
         "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         "tool_name": "ReactJS"
     },
