@@ -6,6 +6,7 @@ import LightSun from './styles/images/light-sun.svg';
 import MyPhoto from './styles/images/IMG_20230218_145511_076 (1).webp';
 import PinMap from './styles/images/pin-map.svg';
 import AboutMe from './components/aboutMe/AboutMe.js';
+import Skills from './components/skills/Skills.js';
 import ScrollToTop from './components/scrollToTopButton/ScrollToTop';
 import {useRef} from 'react';
 
@@ -87,10 +88,10 @@ function App() {
           <AboutMe />
         </div>
 
-        {/* <div ref={habilidadesRef}>
-          <AboutMe />
+         <div>
+          <Skills />
         </div>
-
+{/*
         <div ref={experienciaRef}>
           <AboutMe />
         </div> */}
