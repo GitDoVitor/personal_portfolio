@@ -1,0 +1,97 @@
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+
+.experiences-wrapper {
+    padding: 96px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $gray-light-50;
+
+
+    .title-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 48px;
+
+        #subtitle {
+            color: $gray-light-600;
+        }
+
+        >div {
+            text-align: center;
+            margin-bottom: 16px;
+            width: 105px;
+            padding: 4px 20px;
+            background: $gray-light-200;
+            border-radius: 12px;
+
+            span {
+                color: $gray-light-600;
+            }
+        }
+    }
+}
+
+.experience-info {
+    display: flex;
+    flex-direction: column;
+
+    .work-wrapper:not(:last-child) {
+        margin-bottom: 48px;
+    }
+
+    .experience-card-item {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        margin-bottom: 20px;
+        
+        > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+.work-wrapper {
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+    background: $gray-light-default;
+    width: 800px;
+}
+
+.work-icon {
+    width: 200px;
+}
+
+#work-time {
+    color: $gray-light-700;
+}
+
+#work-desc {
+    color: $gray-light-600;
+}
+
+#work-name {
+    white-space: nowrap;
+}
+
+#work-name-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+#teste {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+span {
+    width: 50%;
+}
+}
