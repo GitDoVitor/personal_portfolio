@@ -1,62 +1,62 @@
 export const skillsList = [
     {
-        "id": 1,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "tool_name": "HTML5"
     },
     {
-        "id": 2,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "tool_name": "CSS3"
     },
     {
-        "id": 3,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        "tool_name": "Java"
     },
     {
-        "id": 4,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "tool_name": "ReactJS"
     },
     {
-        "id": 5,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        "tool_name": "PostgreSQL"
     },
     {
-        "id": 6,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        "tool_name": "Sass"
     },
     {
-        "id": 7,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+        "tool_name": "Microsoft Azure"
     },
     {
-        "id": 8,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+        "tool_name": "Amazon Web Services"
     },
     {
-        "id": 9,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        "tool_name": "Docker"
     },
     {
-        "id": 10,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "tool_name": "Javascript"
     },
     {
-        "id": 11,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "tool_name": "Python3"
     },
     {
-        "id": 12,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+        "tool_name": "Spring"
     },
     {
-        "id": 13,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        "tool_name": "MySQL"
     },
     {
-        "id": 14,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
+        "tool_name": "Terraform"
     },
     {
-        "id": 15,
-        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        "img_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        "tool_name": "Git"
     }
 ];
